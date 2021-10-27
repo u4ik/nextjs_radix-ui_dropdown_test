@@ -1,0 +1,30 @@
+.trigger {
+    padding: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content {
+    background: white;
+    padding: .3em;
+    border: solid 1px black;
+    border-radius: 5px
+}
+
+.item {
+    cursor: pointer;
+    /* text-align: center; */
+    padding: .2em;
+}
+
+.item:focus {
+    background: steelblue;
+    border-radius: 5px;
+    border-color: transparent;
+}
+
+.right {
+    float: right;
+    margin-top: .25em;
+    transform: scale(.7);
+}
