@@ -1,19 +1,40 @@
 .trigger {
-    padding: 1em;
+    padding: .6em;
+    border-color: transparent;
+    outline: none;
+    user-select: none;
     border-radius: 5px;
     cursor: pointer;
+    border: transparent solid 5px;
+    box-sizing: border-box;
+    filter: drop-shadow(.2em .2em .2em black);
+}
+
+.trigger:hover {
+    background: hsl(207, 54%, 29%);
+    transition: .2s ease-in-out;
+    color: white;
+    border-color: transparent;
+}
+
+.trigger:not(:hover) {
+    transition: .2s ease-in-out;
+}
+
+.trigger:focus {
+    border-color: hsl(207, 54%, 69%);
 }
 
 .content {
     background: white;
     padding: .3em;
     border: solid 1px black;
-    border-radius: 5px
+    border-radius: 5px;
+    filter: drop-shadow(.2em .2em .2em black);
 }
 
 .item {
     cursor: pointer;
-    /* text-align: center; */
     padding: .2em;
 }
 
