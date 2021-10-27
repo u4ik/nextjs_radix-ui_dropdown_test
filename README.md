@@ -1,1 +1,1 @@
-<h1>Just testing out different frameworks and component libraries</h1>
+<h1>Just testing out Next.js, along with Radix-UI styling library.</h1>
